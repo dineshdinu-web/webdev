@@ -1,0 +1,131 @@
+.Navigation {
+  font-family: "Times New Roman", Times, serif;
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  margin-left: 20px;
+}
+.logopic {
+  width: 50px;
+  height: 50px;
+}
+
+.nav_text {
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.title_con {
+  background-image: url(./img/images.jfif);
+  display: grid;
+  grid-template: 40% 70% / 50% 50%;
+  height: 100vh;
+}
+.tit_img {
+  order: 1;
+  grid-row: span 2;
+  width: 600px;
+  height: 600px;
+}
+.title_con p {
+  order: 2;
+  font-family: cursive;
+  font-size: 48px;
+  color: rgb(109, 31, 55);
+  text-align: center;
+  align-items: start;
+  margin-left: 40px;
+}
+.title_con span {
+  font-size: 60px;
+  font-style: oblique;
+  font-weight: 900;
+}
+.title {
+  font-family: cursive;
+  font-size: 25px;
+  color: rgb(254, 248, 250);
+  margin-left: 40px;
+}
+
+.about {
+  height: 65vh;
+  background-color: rgba(228, 78, 95, 0.929);
+  margin-bottom: 20px;
+  color: rgb(254, 252, 253);
+}
+.about h3 {
+  color: gold;
+  font-family: cursive;
+  font-weight: bolder;
+  font-size: 50px;
+  padding: 5px;
+  margin-left: 20px;
+}
+.about p {
+  text-align: center;
+  font-size: 30px;
+  padding: 5px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+.about img {
+  float: right;
+  width: 60%;
+  height: 420px;
+  width: auto;
+  margin: 10px;
+}
+.aboutbutton {
+  text-align: center;
+}
+.Menu {
+  background-color: rgb(234, 123, 138);
+  color: white;
+  display: grid;
+  grid-template: 2fr 2fr / repeat(3, 510px);
+  text-align: center;
+  gap: 10px;
+  height: 100vh;
+}
+.Menu img {
+  height: 150px;
+  width: 150px;
+}
+.Menu p {
+  text-align: justify;
+  margin: 10px;
+}
+.item .price {
+  font-family: cursive;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.item {
+  background-color: rgba(181, 38, 76, 0.958);
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(181, 17, 68);
+  margin-top: 20px;
+}
+
+button {
+  background-color: orangered;
+  color: white;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+}

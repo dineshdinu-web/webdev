@@ -1,43 +1,148 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
-
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
-
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
-
-<!-- TODO 4: Add titles/subtitles etc. -->
-
-<!-- TODO 5: Add a link to the project pages -->
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Porfolio</title>
+    <title>Atti Cafe</title>
+
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>ABC Porfolio</h1>
-    <h2>I'm a web developer</h2>
-    <hr />
-    <a href="./public/movie-ranking.html"><h2>Movie Ranking Project</h2></a>
-    <img
-      src="./assets/images/movie-ranking.png"
-      height="200"
-      alt="preview of movie ranking project"
-    />
-    <a href="./public/birthday-invite.html"><h2>Birthday invite</h2></a>
-    <img
-      src="./assets/images/birthday-invite.png"
-      height="200"
-      alt="preview of birthday invite project"
-    />
-    <hr />
-    <a href="./public/about.html">About Me</a>
-    <a href="./public/contact.html">Contact me</a>
+    <div class="container">
+      <div class="Navigation">
+        <div class="logo">
+          <h3>Atti Cafe</h3>
+          <img src="./img/cake.png" class="logopic" />
+        </div>
+        <div class="nav_text">
+          <div class="nav">Home</div>
+          <div class="nav">About</div>
+          <div class="nav">Contact Me</div>
+          <div class="nav">Menu</div>
+          <button class="nav order">Order Now</button>
+        </div>
+      </div>
+      <div class="title_con">
+        <div class="title">
+          <h1>Atti Cafe</h1>
+          <h2>Coffee</h2>
+        </div>
+        <p>
+          Make <br /><span>Fruity Your Summar Thing</span> <br />Flavour full
+          refershers
+        </p>
+
+        <img
+          class="tit_img"
+          src="./img/mocktail.png"
+          alt="mocktail"
+          width="300px"
+          height="300px"
+        />
+      </div>
+
+      <div class="about">
+        <div>
+          <img src="./img/title bg.webp" />
+        </div>
+        <div class="abouttxt">
+          <h3>Our Coffee</h3>
+
+          <p>
+            Our iconic Signature Blends are slow roasted for the perfect balance
+            of rich flavour and smooth taste. We guarantee you the freshest
+            taste and finest ingredients, every time. Check out our full range
+            of drinks, snacks and meals and discover your favourites.
+          </p>
+          <div class="aboutbutton">
+            <button>Explore the Menu</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="Menu">
+        <div class="item i1">
+          <img src="./img/coffee.png" alt="Coffee" />
+          <p class="price">Rs.249</p>
+          <p>
+            Coffee is the world's most popular energizing beverage, brewed from
+            roasted, ground seeds of the Coffea plant. Celebrated for its rich
+            aroma and caffeine-driven boost, it comes in countless
+            varieties—from velvety espresso and lattes to robust cold brews—and
+            is frequently customized with milk, sugar, and various syrups.
+          </p>
+        </div>
+        <div class="item i2">
+          <img src="./img/cake.png" alt="cake" />
+          <p class="price">Rs.149</p>
+          <p>
+            Cake is a sweet baked dessert made by blending flour, sugar, eggs,
+            and butter into a smooth batter. Often flavored with vanilla or
+            chocolate, it is typically leavened, baked to a fluffy texture, and
+            topped with rich frosting. Globally, it serves as the ultimate
+            centerpiece for birthdays, weddings, and joyful celebrations.
+          </p>
+        </div>
+        <div class="item i3">
+          <img src="./img/mocktail.png" alt="mocktail" />
+          <p class="price">Rs.449</p>
+          <p>
+            A mocktail is a sophisticated, non-alcoholic beverage crafted to
+            mimic the complex flavors and elegant presentation of traditional
+            cocktails. By blending fresh fruit juices, herbs, artisanal syrups,
+            and sparkling sodas, mixologists offer a premium, inclusive drink
+            option that enhances any celebration or gathering without the
+            alcohol.
+          </p>
+        </div>
+        <div class="item i4">
+          <img src="./img/french_fries.png" alt="french_fries" />
+          <p class="price">Rs.99</p>
+          <p>
+            French fries (also known as chips) are baton-cut, deep-fried
+            potatoes widely beloved for their crispy exterior and soft, fluffy
+            interior.
+          </p>
+        </div>
+        <div class="item i5">
+          <img src="./img/sandwich.png" alt="sandwich" />
+          <p class="price">Rs.199</p>
+          <p>
+            The sandwich is the ultimate portable meal, consisting of savory or
+            sweet fillings layered between slices of bread. Invented in the 18th
+            century as a convenient finger food for the Earl of Sandwich, it has
+            evolved into a highly versatile staple tailored to every palate and
+            culture.
+          </p>
+        </div>
+        <div class="item i6">
+          <img src="./img/rolls.png" alt="roll" />
+          <p class="price">Rs.89</p>
+          <p>
+            Roll" is a highly versatile word that functions as both a verb and a
+            noun. As a verb, it broadly means to move by turning over and over,
+            such as rolling a ball, or to wrap a flexible material around itself
+            to form a cylinder.
+          </p>
+        </div>
+      </div>
+
+      <div class="contact">
+        <div class="address">
+          <h3>Address</h3>
+          <p>
+            No:123 abc street , chennai 600600
+            <br />
+            Call: 9876543210<br />
+            Email:atticafe@gamil.com
+          </p>
+        </div>
+
+        <div class="thank">
+          <h2>Thankyou</h2>
+          <h3>Vist Again!!</h3>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
